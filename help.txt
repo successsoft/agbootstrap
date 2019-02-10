@@ -1,0 +1,23 @@
+Global package
+npm install -g @angular/cli
+npm install -g @angular/cli@1.4.10
+npm install @angular/cli
+
+
+upate angular cli
+ng update @angular/cli
+
+Local project package
+npm install --save-dev @angular/cli@1.7.4
+
+uninstall angular
+npm uninstall -g @angular/cli
+
+Create new project
+ng new fp
+
+Create component
+ng g component login
+
+
+https://github.com/wangdicoder/angular-material-dashboard
