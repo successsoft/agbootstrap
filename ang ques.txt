@@ -1,0 +1,30 @@
+entry components -  is any component that Angular loads imperatively. array is used to define only components that are not found in html and created dynamically 
+imports and export - Angular imports/exports are used to make the content of one module available to be used in another module
+this - Property binding is the primary way of binding data in Angular
+communication between parent to child  two child - @Input
+parent to child  - @Output @Output() messageEvent = new EventEmitter<string>();
+
+httpinterceptor - Intercepts and handles an HttpRequest or HttpResponse.
+Can't resolve all parameters - Occurs during injection to resolve @Inject
+Observable - streams of event over time.  Cancel-able/retry-able support operators such as map, filter, reduce etc. Multiple piple lines. Subscription to handle. Error handling
+Promise - Only one event. Not easy to cancel it retures single value. One pipeline. Use .then(). Push error to child promises
+map(), filter(), concat(), and flatMap() - observable
+Transformation	bufferTime, concatMap, map, mergeMap, scan, switchMap - observable
+map - mapping you get the value of the current index in the Array. With Observables the type of data can be of all sorts of types
+Reduces -  the values from source observable to a single value
+ng container - structural directives and how you can write your own structural directives to do the same thing.
+ng-template :structural directives that we use all the time: ngIf, ngFor and ngSwitch.alternative loading template 
+
+ng-container: In order to avoid having to create that extra div
+eg <select *ngFor="let lesson of lessons"><option>{{lesson.name}}</option></select>
+to
+<select ><ng-container *ngFor="let lesson of lessons"><option>{{lesson.name}}</option></ng-container></select>
+Webpack – Module Bundler. Webpack is a popular module bundler which is used as a tool for bundling application 
+ionic-4-vs-ionic-3 : 
+1) routing
+2) Custom Elements: defines the bases and the fundamentals to design and use new types of DOM elements.
+3) Shadow DOM: defines how to use encapsulated styles and markup within a web component.
+4) HTML imports: defines how to include and reuse the HTML document in another HTML document.
+5) HTML Template: defines how to declare code fragments that will not be used while the page is loading, but could be later instantiated at runtime.
+Ionic Page Life Cycle
+Angular life cycle
